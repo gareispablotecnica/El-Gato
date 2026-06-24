@@ -10,3 +10,26 @@ body{
     background-size: 100%;
     overflow-y: hidden;
 }
+
+.contenedorprincipal{
+    display: flex;
+    justify-content: center;
+    gap: 350px;
+    position: relative;
+    bottom: -350px;
+}
+
+.cat{
+    display: flex;
+    transform: scale(3.0);
+    height: 100px;
+}
+
+
+.cabeza-exterior{
+    width: 48px;
+    height: 48px;
+    transform-origin:bottom;
+    animation: ide 1s ease-in-out infinite alternate;
+    
+}
